@@ -1,3 +1,5 @@
+edit: works with ubuntu kernel 5.3 but not kernel 5.4
+
 edit: broken after 2 reboots :(
 
 Changed SUBDIRS= to M= in Makefile to be able to compile on ubuntu20.04 kernel 5.4 
