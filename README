@@ -1,3 +1,10 @@
+Changed SUBDIRS= to M= in Makefile to be able to compile on ubuntu20.04 kernel 5.4 
+(also had to sudo apt install flex bison libelf-dev )
+
+works for me now on Fujitsu Celsius H710
+
+________________________________________-
+
 This is a fork of guillaumezin/nvidiabl,
 which adds support for systems with linux kernel 4.0.0 or above.
 
